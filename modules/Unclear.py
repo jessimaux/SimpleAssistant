@@ -1,5 +1,5 @@
 # -*- coding: utf-8-*-
-from sys import maxsize
+
 import random
 
 WORDS = []
@@ -7,7 +7,7 @@ WORDS = []
 PRIORITY = -1
 
 
-def handle(text):
+def handle(text, media):
     """
         Reports that the user has unclear or unusable input.
         Arguments:
